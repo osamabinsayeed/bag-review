@@ -1,0 +1,20 @@
+.home-comp {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 100px;
+}
+
+.bag-img img {
+    height: 500px;
+
+}
+
+.probably {
+    font-size: 90px;
+    color: chartreuse;
+}
+
+.the-best {
+    font-size: 70px;
+    color: orange;
+}
