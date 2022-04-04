@@ -1,0 +1,19 @@
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 228, 170);
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: aliceblue;
+
+
+}
+
+nav a:hover {
+    color: orangered;
+}
