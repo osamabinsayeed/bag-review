@@ -1,7 +1,8 @@
 import pic from './bag.jpg'
 import './Home.css'
+import LoadData from '../hooks/LoadData';
 const Home = () => {
-
+    const reviews = LoadData().slice(0, 3);
 
     return (
         <div>
@@ -14,8 +15,15 @@ const Home = () => {
                     <img src={pic} alt="bag" />
                 </div>
             </div>
-            <div>
+            <div className='all-reviews'>
                 <h1>Top Reviews</h1>
+                {reviews.map(review => <div className='reviews'>
+                    <img src={review.img} alt="" />
+                    <div>
+                        <h3>{review.name}</h3>
+                        <p className='text'>{review.review}</p>
+                    </div>
+                </div>)}
             </div>
 
         </div>

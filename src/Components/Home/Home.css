@@ -10,11 +10,37 @@
 }
 
 .probably {
-    font-size: 90px;
+    font-size: 80px;
     color: chartreuse;
 }
 
 .the-best {
     font-size: 70px;
     color: orange;
+}
+
+.all-reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews {
+    border: 1px solid gray;
+    background-color: burlywood;
+    border-radius: 20px;
+    display: flex;
+    margin: 20px;
+    padding: 5px;
+}
+
+
+.reviews img {
+    width: 100px;
+    border-radius: 20px;
+}
+
+text {
+    padding-left: 5px;
 }
