@@ -3,36 +3,42 @@
         "name": "Naruto Uzumaki",
         "id": 1,
         "review": "It's an awesome shoe. I've been using this since long.Great experience indeed.",
+        "rating": "4 star",
         "img": "./images/naruto.jpg"
     },
     {
         "name": "Sasuke Uchiha",
-        "id": 1,
+        "id": 2,
         "review": "It's an awesome shoe. I've been using this since long.Great experience indeed.",
+        "rating": "4 star",
         "img": "./images/sasuke.jpg"
     },
     {
         "name": "Sakura Haruno",
-        "id": 1,
+        "id": 3,
         "review": "It's an awesome shoe. I've been using this since long.Great experience indeed.",
+        "rating": "4 star",
         "img": "./images/sakura.jpg"
     },
     {
         "name": "Hinata Uzumaki",
-        "id": 1,
+        "id": 4,
         "review": "It's an awesome shoe. I've been using this since long.Great experience indeed.",
+        "rating": "5 star",
         "img": "./images/hinata.jpg"
     },
     {
         "name": "Kakashi Hatake",
-        "id": 1,
+        "id": 5,
         "review": "It's an awesome shoe. I've been using this since long.Great experience indeed.",
+        "rating": "4 star",
         "img": "./images/kakashi.jpg"
     },
     {
         "name": "Shikamaru Nara",
-        "id": 1,
+        "id": 6,
         "review": "It's an awesome shoe. I've been using this since long.Great experience indeed.",
+        "rating": "5 star",
         "img": "./images/shikamaru.jpg"
     }
 ]
